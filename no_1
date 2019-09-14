@@ -1,0 +1,26 @@
+<script>
+	document.write('BIODATA <br><br>');
+	var name = 'Imam Aburizal Albana';
+	var age = 25;
+	var address = 'Kabupaten Brebes, Jawa Tengah'
+	var hobbies = ["Swimming", "Watching Movie", "Playing Guitar"];
+	var is_married = false;
+  var list_school = ["SMAN 1 BREBES", "UNIVERSITAS TELKOM"];
+  var year_in = [2008, 2011];
+  var year_out = [2011, 2017];
+  var major = ["IPS", "Ilmu Komputasi"];
+	var skill_name = ["Coding", "English"];
+  var skill_level = ["Beginner", "Advance", "Expert"];
+  var interest_in_coding = true;
+ 
+	document.write(name + '<br>');
+	document.write(age + '<br>');
+	document.write(address + '<br>');
+	document.write(hobbies.join(', ') + '<br>');
+  document.write(is_married + '<br>');
+  document.write(list_school[0] + ' (' + year_in[0] + ' - ' + year_out[0] + ') ' + major[0] + '<br>');
+  document.write(list_school[1] + ' (' + year_in[1] + ' - ' + year_out[1] + ') ' + major[1] + '<br>');
+  document.write(skill_name[0] + ' - ' + skill_level[0] + '<br>');
+  document.write(skill_name[1] + ' - ' + skill_level[1] + '<br>');
+  document.write(interest_in_coding)
+</script>

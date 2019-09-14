@@ -1,0 +1,23 @@
+$text = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+ 
+$panjang = 32;
+
+$baris = 3
+
+$text1 = string;
+$text2=strlen($text)-1;
+
+$result1 = '';
+$result2 = '';
+
+function acakstring(){
+	for ($i=1; $i<=$baris; $i++){
+		for ($i=1; $i<=panjang; $i++){
+			$result1 .=
+			$text[rand(0, $txt2)];
+		}
+	$result2 .= 
+	text
+	}
+echo $result2;
+}
